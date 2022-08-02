@@ -9,7 +9,7 @@ Este projeto foi construído com React Native com o intuito de exibir a temperat
 
 ## Tecnologias utilizadas
 - React Native
-- Styled Componentes
+- Styled Components
 - Date-fns
 - Axios
 - Vector-Icons
