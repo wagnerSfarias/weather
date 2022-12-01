@@ -75,3 +75,9 @@ width: 90%;
 
 export const List = styled.FlatList`
 `;
+
+export const ContainerLoading = styled.View`
+flex: 1;
+justify-content: center;
+align-items: center;
+`;

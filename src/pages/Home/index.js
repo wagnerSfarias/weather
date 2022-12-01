@@ -8,7 +8,7 @@ import ListDays from '../../components/ListDays';
 import ModalSearch from '../../components/ModalSearch';
 
 
-import { Container, Background, ViewTitle, Title, ViewSearch, Temp, Description, ViewTemp, Temperatures, NextDays, Split, ViewFlatList, List} from './styles';
+import { Container, Background, ViewTitle, Title, ViewSearch, Temp, Description, ViewTemp, Temperatures, NextDays, Split, ViewFlatList, List, ContainerLoading} from './styles';
 
 
 export default function Home() {
@@ -101,9 +101,9 @@ export default function Home() {
 
   if (!weatherDays) {
     return (
-      <View style={{flex:1,justifyContent:'center', alignItems:'center'}}>
+      <ContainerLoading>
         <ActivityIndicator color="#000" size={45} />
-      </View>
+      </ContainerLoading>
     )
   } else {
 
